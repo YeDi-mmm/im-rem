@@ -1,0 +1,12 @@
+{
+  "name": "imrem",
+  "version": "0.2.1",
+  "description": "",
+  "main": "rem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["rem","Responsive"],
+  "author": "ziye_m",
+  "license": "ISC"
+}
