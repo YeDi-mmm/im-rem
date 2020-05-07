@@ -10,14 +10,8 @@ import { remScreenS } from 'imrem';
 ```
 ### main.js中全局引用
 ```
-remScreenS(Screenwidth)
+remScreenS()
 ```
-## 参数Screenwidth
->  * 类型：Number;
->  * ui设计图尺寸输入，
->  > 例如：设计图 -> 375 || 设计图 -> 750 ; 调用结果为：remScreenS(750);
->  * ps:
->  > 设计图 375 && 750，参数为750;设计图1024或更大，参数为本身大小（设计图像素多大就写多大）;
 ### 安装外部插件px转换rem
 > #### 安装
 >  > 打开Visual Studio Code，扩展，在应用商店中搜索：cssrem ; 安装好重启Visual Studio Code;
@@ -32,6 +26,7 @@ remScreenS(Screenwidth)
 >  > 自动移除0开头的前缀，默认：true
 > * "cssrem.rootFontSize": 75
 >  > (重点就是这个了) 这里就是设置基础的font-size，如果设计图是750标准的（iphone6），则设置成75。设计图为375，则设置成37.5；
+>  > (设计图尺寸多大就填多大!!! )
 ##### 说明
 ```
 页面中使用，设计图上面多少尺寸，直接填多大，自动转换为rem。
