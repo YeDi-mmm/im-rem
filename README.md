@@ -6,11 +6,7 @@ npm install imrem
 ## 使用
 ### main.js文件中引入;
 ```
-import { remScreenS } from 'imrem';
-```
-### main.js中全局引用
-```
-remScreenS()
+import 'imrem';
 ```
 ### 安装外部插件px转换rem
 > #### 安装
@@ -32,3 +28,4 @@ remScreenS()
 页面中使用，设计图上面多少尺寸，直接填多大，自动转换为rem。
 例如：设计图上面某个按钮尺寸宽80px，代码中直接：width:80px;会自动弹出rem转换，选择转换的rem单位即可。
 ```
+#### 即下即用！
